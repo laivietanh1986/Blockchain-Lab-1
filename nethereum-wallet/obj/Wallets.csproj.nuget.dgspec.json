@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\laivi\\OneDrive - VNU-HCMUS\\blockchain\\nethereum-wallet-master\\nethereum-wallet-master\\Wallets.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\laivi\\OneDrive - VNU-HCMUS\\blockchain\\nethereum-wallet-master\\nethereum-wallet-master\\Wallets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\laivi\\OneDrive - VNU-HCMUS\\blockchain\\nethereum-wallet-master\\nethereum-wallet-master\\Wallets.csproj",
+        "projectName": "Wallets",
+        "projectPath": "C:\\Users\\laivi\\OneDrive - VNU-HCMUS\\blockchain\\nethereum-wallet-master\\nethereum-wallet-master\\Wallets.csproj",
+        "packagesPath": "C:\\Users\\laivi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\laivi\\OneDrive - VNU-HCMUS\\blockchain\\nethereum-wallet-master\\nethereum-wallet-master\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\laivi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Nethereum.HdWallet": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Nethereum.KeyStore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Rijndael256.Core": {
+              "target": "Package",
+              "version": "[3.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
